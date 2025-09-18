@@ -15,7 +15,7 @@ class SimuladorDadosRPG:
         if lancamentos > 1:
             for dado in range(lancamentos):
                 resultado = random.randint(1, valor_maximo)
-                print(f'O dado {dado+1} tem o valor de: {resultado}')
+                print(f'\nO dado {dado+1} tem o valor de: {resultado}')
                 resultados.append(resultado)
                 retorno = resultados
         else:
